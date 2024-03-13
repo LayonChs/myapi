@@ -7,8 +7,5 @@ import (
 func Initialize() {
 	router := gin.Default()
 	initializeRouter(router)
-
-
-	
 	router.Run("localhost:8080")
 }
